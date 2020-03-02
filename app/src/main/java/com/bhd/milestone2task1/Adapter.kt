@@ -10,6 +10,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.view.marginTop
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import kotlinx.android.synthetic.main.accordion_list_group.view.*
 import kotlinx.android.synthetic.main.accordion_list_item.view.*
 
@@ -59,32 +60,6 @@ class ListMenuAdapter(private var c: Context, var infor: List<DataForSpringboard
 
         val textView = view!!.findViewById<TextView>(R.id.listmenuText)
         textView.text = infor[i].title
-
-        return view
-    }
-}
-
-class ToggleAdapter(private var c: Context, var infor: List<DataForSpringboard>) : BaseAdapter() {
-
-    override fun getCount(): Int   {  return infor.size  }
-    override fun getItem(i: Int): Any {  return infor[i] }
-    override fun getItemId(i: Int): Long { return i.toLong()}
-
-    override fun getView(i: Int, view: View?, viewGroup: ViewGroup): View {
-        var view = view
-        if (view == null) {
-            //inflate layout resource if its null
-            view = LayoutInflater.from(c).inflate(R.layout.listmenu_adapter, viewGroup, false)
-        }
-
-        //reference textviews and imageviews from our layout
-        val imageView = view!!.findViewById<ImageView>(R.id.listmenuImg)
-
-        Glide.with(view!!).load(infor[i].img).into(imageView)
-
-        val textView = view!!.findViewById<TextView>(R.id.listmenuText)
-        textView.text = infor[i].title
-        textView.textSize = 24f
 
         return view
     }
@@ -161,5 +136,55 @@ class ExpandableListAdapter(val _context: Context,  var listDataHeader: ArrayLis
 
     override fun isChildSelectable(groupPosition: Int, childPosition: Int): Boolean {
         return true
+    }
+}
+
+class RegisPersonalizationAdapter(private var c: Context, var infor: List<DataForSpringboard>) : BaseAdapter() {
+
+    override fun getCount(): Int   {  return infor.size  }
+    override fun getItem(i: Int): Any {  return infor[i] }
+    override fun getItemId(i: Int): Long { return i.toLong()}
+
+    override fun getView(i: Int, view: View?, viewGroup: ViewGroup): View {
+        var view = view
+        if (view == null) {
+            //inflate layout resource if its null
+            view = LayoutInflater.from(c).inflate(R.layout.regis_asset, viewGroup, false)
+        }
+
+        //reference textviews and imageviews from our layout
+        val imageView = view!!.findViewById<ImageView>(R.id.regisImg1)
+
+        Glide.with(view!!).load(infor[i].img).into(imageView)
+
+        val textView = view!!.findViewById<TextView>(R.id.regisText)
+        textView.text = infor[i].title
+
+        return view
+    }
+}
+
+class MultiStepAdapter(private var c: Context, var infor: List<DataForSpringboard>) : BaseAdapter() {
+
+    override fun getCount(): Int   {  return infor.size  }
+    override fun getItem(i: Int): Any {  return infor[i] }
+    override fun getItemId(i: Int): Long { return i.toLong()}
+
+    override fun getView(i: Int, view: View?, viewGroup: ViewGroup): View {
+        var view = view
+        if (view == null) {
+            //inflate layout resource if its null
+            view = LayoutInflater.from(c).inflate(R.layout.multi_asset, viewGroup, false)
+        }
+
+        //reference textviews and imageviews from our layout
+        val imageView = view!!.findViewById<ImageView>(R.id.multiImg1)
+
+        Glide.with(view!!).load(infor[i].img).into(imageView)
+
+        val textView = view!!.findViewById<TextView>(R.id.multiText)
+        textView.text = infor[i].title
+
+        return view
     }
 }

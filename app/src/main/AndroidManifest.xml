@@ -46,6 +46,39 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Accordion"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".SignInForm1"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".SignUpForm"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".SignInForm2"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".LongForm"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".RegisPersonalization"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".SearchForm"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".MultiStep1"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".MultiStep2"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".MultiStep3"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".MultiStep4"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".CalculatorForm"/>
     </application>
 
 </manifest>
