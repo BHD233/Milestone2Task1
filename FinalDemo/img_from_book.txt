@@ -1,20 +1,31 @@
 
 Chapter 1:
-	1.7 pic 1 X
-	1.20 pic 1 X
-	1.24 pic 2 X
-	1.28 pic 1 X
-	1.40 pic 2 X
-	1.52 pic 1 X
-	1.59 pic 1 X
-	1.75 X
+	1.7 pic 1 	X
+	1.20 pic 1 	X
+	1.24 pic 2 	X
+	1.28 pic 1 	X
+	1.40 pic 2 	X
+	1.52 pic 1 	X
+	1.59 pic 1 	X
+	1.75 		X
 
 Chapter 2:
-	2.2 pic 1 X
-	2.15 X
-	2.25 pic 1 X
-	2.31 pic 1 X
-	2.39 X
-	2.55 X
-	2.58 pic 1 X
-	2.64 X
+	2.2 pic 1 	X
+	2.15 		X
+	2.25 pic 1 	X
+	2.31 pic 1 	X
+	2.39 		X
+	2.55 		X
+	2.58 pic 1 	X
+	2.64 		X
+
+Chapter 3:
+	3.3 pic 1 	X
+	3.4 pic 1 	X
+	3.5 pic 1	X
+	3.7		X
+	3.9 pic 3	X
+	3.12 pic 2 	X
+	3.14 last pic	X
+	3.15 pic 2 	X
+

@@ -79,6 +79,30 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".CalculatorForm"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".BasicTable"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".HeaderlessTable"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".HeaderlessTable2"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".GroupedRows"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".VisualIndicator1"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".VisualIndicator2"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".FixedColumn"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".OverviewPlusData"/>
     </application>
 
 </manifest>

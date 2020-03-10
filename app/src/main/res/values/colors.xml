@@ -17,6 +17,7 @@
     <color name="blueBackground">#3366cc</color>
     <color name="lightblueBackground">#4db8ff</color>
     <color name="blueDark">#0059b3</color>
+    <color name="blueLight">#c1f0f0</color>
     <color name="purple">#730099</color>
     <color name="whitedarksuper">#666666</color>
     <color name="orangeBackground">#e67300</color>
@@ -26,4 +27,5 @@
     <color name="green">#608000</color>
     <color name="greenLight">#33cc33</color>
     <color name="greenYellow">#ffffcc</color>
+    <color name="grey">#9494b8</color>
 </resources>

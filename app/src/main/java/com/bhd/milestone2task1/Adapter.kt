@@ -1,6 +1,7 @@
 package com.bhd.milestone2task1
 
 import android.content.Context
+import android.content.res.Resources
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +9,7 @@ import android.widget.BaseAdapter
 import android.widget.BaseExpandableListAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.core.view.marginTop
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -184,6 +186,52 @@ class MultiStepAdapter(private var c: Context, var infor: List<DataForSpringboar
 
         val textView = view!!.findViewById<TextView>(R.id.multiText)
         textView.text = infor[i].title
+
+        return view
+    }
+}
+
+class HeadlessListAdapter(private var c: Context, var title: List<String>, var w: List<String>, var l: List<String>, var gb: List<String>)
+    : BaseAdapter() {
+
+    override fun getCount(): Int   {  return title.size  }
+    override fun getItem(i: Int): Any {  return title[i] }
+    override fun getItemId(i: Int): Long { return i.toLong()}
+
+    override fun getView(i: Int, view: View?, viewGroup: ViewGroup): View {
+        var view = view
+        if (view == null) {
+            //inflate layout resource if its null
+            view = LayoutInflater.from(c).inflate(R.layout.list_view_asset, viewGroup, false)
+        }
+
+        var textView = view!!.findViewById<TextView>(R.id.listViewTitle)
+        if(i == 0 || i == 7 || i == 14) {
+            textView.setTextColor(ContextCompat.getColor(view.context, R.color.shelfStage1))
+        }
+        textView.text = title[i]
+
+        textView = view!!.findViewById<TextView>(R.id.listViewW)
+        if(i == 0 || i == 7 || i == 14) {
+            textView.setTextColor(ContextCompat.getColor(view.context, R.color.shelfStage1))
+        }
+        textView.text = w[i]
+
+        textView = view!!.findViewById<TextView>(R.id.listViewL)
+        if(i == 0 || i == 7 || i == 14) {
+            textView.setTextColor(ContextCompat.getColor(view.context, R.color.shelfStage1))
+        }
+        textView.text = l[i]
+
+        textView = view!!.findViewById<TextView>(R.id.listViewGB)
+        if(i == 0 || i == 7 || i == 14) {
+            textView.setTextColor(ContextCompat.getColor(view.context, R.color.shelfStage1))
+        }
+        textView.text = gb[i]
+
+        if(i == 0 || i == 7 || i == 14) {
+            view.setBackgroundResource(R.color.black)
+        }
 
         return view
     }

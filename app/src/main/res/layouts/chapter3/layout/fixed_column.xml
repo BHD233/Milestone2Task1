@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/b" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/c" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/e" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            app:srcCompat="@drawable/f" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/grey"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Prescriber"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:text="Territory"
+                android:textSize="18sp"
+                android:textColor="@color/white">
+
+                <TextView
+                    android:layout_width="@dimen/standard_width"
+                    android:layout_height="wrap_content"
+                    android:text="Territory"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="@dimen/standard_width"
+                    android:layout_height="wrap_content"
+                    android:text="Specialty"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="@dimen/standard_width"
+                    android:layout_height="wrap_content"
+                    android:text="Percent"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="@dimen/standard_width"
+                    android:layout_height="wrap_content"
+                    android:text="Some text"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:layout_width="@dimen/standard_width"
+                    android:layout_height="wrap_content"
+                    android:text="Some more"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_marginRight="10dp"/>
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/fixedColumnLeft"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/column1Layout"
+                        android:layout_width="@dimen/standard_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" />
+
+                    <LinearLayout
+                        android:id="@+id/column2Layout"
+                        android:layout_width="@dimen/standard_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" />
+
+                    <LinearLayout
+                        android:id="@+id/column3Layout"
+                        android:layout_width="@dimen/standard_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" />
+
+                    <LinearLayout
+                        android:id="@+id/column4Layout"
+                        android:layout_width="@dimen/standard_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" />
+
+                    <LinearLayout
+                        android:id="@+id/column5Layout"
+                        android:layout_width="@dimen/standard_width"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_marginRight="10dp"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

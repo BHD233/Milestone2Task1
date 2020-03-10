@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.bumptech.glide.Glide
 import kotlinx.android.synthetic.main.listmenu1.*
+import kotlinx.android.synthetic.main.visual_indicator1.*
 import java.nio.channels.GatheringByteChannel
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         //setSupportActionBar(toolbar)
 
 
-        var intent = Intent(this, CalculatorForm::class.java)
+        var intent = Intent(this, VisualIndicator2::class.java)
         startActivity(intent)
     }
 }
