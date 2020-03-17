@@ -10,12 +10,16 @@
         android:bottom="1dp" >
     </padding>
 
-    <stroke
-        android:color="@color/white"
+    <solid
+        android:color="@color/shelfStage3">
+
+    </solid>
+
+    <stroke android:color="@color/blackdark"
         android:width="2dp"/>
 
     <corners
-        android:radius="10dp" >
+        android:radius="6dp" >
     </corners>
 
 </shape>

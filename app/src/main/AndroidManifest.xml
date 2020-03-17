@@ -103,6 +103,30 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".OverviewPlusData"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure4_3"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure4_9"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure4_13"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure4_39"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure4_33"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure4_24"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure4_43"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure4_53"/>
     </application>
 
 </manifest>

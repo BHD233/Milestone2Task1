@@ -1,7 +1,8 @@
 package com.bhd.milestone2task1
 
 import android.content.Context
-import android.content.res.Resources
+import android.graphics.Color
+import android.opengl.Visibility
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,9 +11,7 @@ import android.widget.BaseExpandableListAdapter
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import androidx.core.view.marginTop
 import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
 import kotlinx.android.synthetic.main.accordion_list_group.view.*
 import kotlinx.android.synthetic.main.accordion_list_item.view.*
 
@@ -234,5 +233,51 @@ class HeadlessListAdapter(private var c: Context, var title: List<String>, var w
         }
 
         return view
+    }
+}
+
+class SpinnerAdapter(private var c: Context, var title: List<String>): BaseAdapter(){
+    public var selected: Int = 0
+
+    override fun getCount(): Int   {  return title.size  }
+
+    override fun getItem(i: Int): Any {  return title[i] }
+
+    override fun getItemId(i: Int): Long { return i.toLong()}
+
+    override fun getView(i: Int, convertView: View?, parent: ViewGroup?): View {
+        var view = convertView
+
+        if (view == null) {
+            //inflate layout resource if its null
+            view = LayoutInflater.from(c).inflate(R.layout.figure4_39_spinner_row, parent, false)
+        }
+
+        var textView = view!!.findViewById<TextView>(R.id.spinner_row_text)
+
+        textView.text = title[i]
+
+        return view
+    }
+
+    override fun getDropDownView(position: Int, convertView: View?, parent: ViewGroup?): View {
+        val view: View
+
+        view = View.inflate(c, R.layout.figure4_39_spinner_row, null)
+
+        val textView = view.findViewById<View>(R.id.spinner_row_text) as TextView
+        textView.setText(title.get(position))
+
+        if (selected == position) {
+            textView.setTextColor(Color.BLUE)
+            val img = view.findViewById<ImageView>(R.id.spinner_row_img)
+            img.visibility = ImageView.VISIBLE
+        } else{
+            val img = view.findViewById<ImageView>(R.id.spinner_row_img)
+            img.visibility = ImageView.INVISIBLE
+        }
+
+        return view
+
     }
 }

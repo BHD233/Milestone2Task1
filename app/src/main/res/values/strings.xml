@@ -8,4 +8,12 @@
         <item>Male</item>
         <item>Female</item>
     </string-array>
+    <string-array name="category">
+        <item>All</item>
+        <item>Apps</item>
+        <item>Books</item>
+        <item>Magazines</item>
+        <item>Music</item>
+        <item>Movies and TV</item>
+    </string-array>
 </resources>

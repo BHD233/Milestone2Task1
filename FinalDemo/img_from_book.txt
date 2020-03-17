@@ -29,3 +29,13 @@ Chapter 3:
 	3.14 last pic	X
 	3.15 pic 2 	X
 
+Chapter 4:
+	4.3 pic 2	X
+	4.9 pic 1	X
+	4.33 pic 2	X
+	4.13 pic 1	X
+	4.53 pic 2
+	4.24 pic 1	X
+	4.39 pic 3	X
+	4.43
+
