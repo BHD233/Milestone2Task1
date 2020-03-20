@@ -36,6 +36,7 @@ android {
                             'src/main/res/layouts/chapter1_2',
                             'src/main/res/layouts/chapter3',
                             'src/main/res/layouts/chapter4',
+                            'src/main/res/layouts/chapter5',
                             'src/main/res'
                     ]
         }
@@ -66,4 +67,6 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0'
 
     implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }

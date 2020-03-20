@@ -11,15 +11,12 @@
     </padding>
 
     <solid
-        android:color="@color/white">
+        android:color="@color/blueBackground">
 
     </solid>
 
-    <stroke android:color="@color/blackdark"
-        android:width="2dp"/>
-
     <corners
-        android:radius="5dp" >
+        android:radius="7dp" >
     </corners>
 
 </shape>

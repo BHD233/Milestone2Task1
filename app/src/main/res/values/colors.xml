@@ -15,6 +15,7 @@
     <color name="shelfStage3">#bfbfbf</color>
     <color name="shelfStage4">#e6e6e6</color>
     <color name="blueBackground">#3366cc</color>
+    <color name="bluequietLight">#00ccff</color>
     <color name="lightblueBackground">#4db8ff</color>
     <color name="blueDark">#0059b3</color>
     <color name="blueLight">#c1f0f0</color>

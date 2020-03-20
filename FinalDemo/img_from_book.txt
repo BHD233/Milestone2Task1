@@ -34,8 +34,17 @@ Chapter 4:
 	4.9 pic 1	X
 	4.33 pic 2	X
 	4.13 pic 1	X
-	4.53 pic 2
+	4.53 pic 2	X
 	4.24 pic 1	X
 	4.39 pic 3	X
-	4.43
+	4.43		X
+Chapter 5:
+	5.4 pic 1	X
+	5.16 pic 2	X
+	5.19 pic 1	X
+	5.25 pic 2	X
+	5.27 pic 2	X
+	5.41		X
+	5.34		X
+	5.24		X
 

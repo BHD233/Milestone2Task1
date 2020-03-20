@@ -10,12 +10,7 @@
         android:bottom="1dp" >
     </padding>
 
-    <solid
-        android:color="@color/white">
-
-    </solid>
-
-    <stroke android:color="@color/blackdark"
+    <stroke android:color="@color/greenLight"
         android:width="2dp"/>
 
     <corners
