@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         //setSupportActionBar(toolbar)
 
 
-        var intent = Intent(this, CalculatorForm::class.java)
+        var intent = Intent(this, Figure6_3::class.java)
         startActivity(intent)
     }
 }
