@@ -22,6 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!--Chapter 1-2-3-->
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Springboard"/>
@@ -103,6 +104,7 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".OverviewPlusData"/>
+        <!--chapter 4-->
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Figure4_3"/>
@@ -127,6 +129,7 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Figure4_53"/>
+        <!--chapter 5-->
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Figure5_4"/>
@@ -151,6 +154,7 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Figure5_34"/>
+        <!--chapter 6-->
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Figure6_3"/>
@@ -175,6 +179,31 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Figure6_21"/>
+        <!--chapter 7-->
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure7_4"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure7_6"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure7_16"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure7_23"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure7_25"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure7_28"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure7_32"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure7_36"/>
     </application>
 
 </manifest>

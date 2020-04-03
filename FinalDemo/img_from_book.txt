@@ -48,12 +48,21 @@ Chapter 5:
 	5.34		X
 	5.24		X
 Chapter 6:
-	6.3 pic 1
+	6.3 pic 1	X
 	6.17 pic 1	X
-	6.29 pic 1
+	6.29 pic 1	X
 	6.34 pic 2	X
 	6.35 pic 1	X
 	6.20 pic 1	X
 	6.19 pic 3	X
-	6.21 pic 2
+	6.21 pic 2	X
+Chapter 7:
+	7.4 pic 2	X
+	7.6 pic 1	X
+	7.16 pic 1	X
+	7.23 pic 1	X
+	7.25 pic 1	X
+	7.28 pic 2	X
+	7.32 pic 3	X
+	7.36 pic 1	X
 
