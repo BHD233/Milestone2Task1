@@ -179,6 +179,7 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Figure6_21"/>
+
         <!--chapter 7-->
         <activity
             android:theme="@style/AppTheme.NoActionBar"
@@ -204,6 +205,32 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Figure7_36"/>
+
+        <!--chapter 8-->
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure8_1"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure8_3"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure8_7"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure8_10"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure8_19"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure8_14"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure8_9"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure8_5"/>
     </application>
 
 </manifest>

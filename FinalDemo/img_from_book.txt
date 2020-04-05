@@ -65,4 +65,12 @@ Chapter 7:
 	7.28 pic 2	X
 	7.32 pic 3	X
 	7.36 pic 1	X
-
+Chapter 8:
+	8.1 pic 2	X
+	8.3 pic 3	X
+	8.7 pic 3	X
+	8.10 pic 2	X
+	8.19 pic 1	X
+	8.14 pic 2	X
+	8.9 pic 2	X
+	8.5 pic 2	X
