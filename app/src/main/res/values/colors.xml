@@ -7,6 +7,7 @@
     <color name="white">#ffffff</color>
     <color name="whitedark">#e6e6e6</color>
     <color name="red">#cc0000</color>
+    <color name="redTransparent">#ddff0000</color>
     <color name="blackdark">#4d4d4d</color>
     <color name="black">#000000</color>
     <color name="blackLight">#333333</color>
@@ -26,6 +27,7 @@
     <color name="pinkBackground">#ff3385</color>
     <color name="brown">#4d2600</color>
     <color name="brownlightBacground">#ebebe0</color>
+    <color name="brownQuietLight">#cccc99</color>
     <color name="green">#608000</color>
     <color name="greenLight">#33cc33</color>
     <color name="greenYellow">#ffffcc</color>

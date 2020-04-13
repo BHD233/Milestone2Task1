@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/figure9_12_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/user" />
+
+        <LinearLayout
+            android:id="@+id/figure9_12_status"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:layout_constraintStart_toStartOf="@id/figure9_12_avatar"
+            app:layout_constraintTop_toBottomOf="@id/figure9_12_avatar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/figure9_12_avatar"
+            android:layout_margin="10dp"
+            android:background="@drawable/circle"
+            android:backgroundTint="@color/blueBackground"
+            android:orientation="vertical"/>
+        <TextView
+            android:id="@+id/figure9_12_who_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/figure9_12_avatar"
+            app:layout_constraintStart_toEndOf="@id/figure9_12_avatar"
+            android:text="User"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/figure9_12_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/figure9_12_who_sent"
+            app:layout_constraintStart_toEndOf="@id/figure9_12_avatar"
+            android:layout_marginLeft="20dp"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/figure9_12_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/figure9_12_avatar"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="Time"
+            android:layout_marginRight="20dp"
+            android:textSize="18sp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

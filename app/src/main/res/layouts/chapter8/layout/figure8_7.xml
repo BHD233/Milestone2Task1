@@ -95,15 +95,15 @@
             android:orientation="vertical" >
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
+                android:tint="@color/shelfStage4"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:srcCompat="@drawable/refresh"
-                android:tint="@color/shelfStage4"/>
+                app:srcCompat="@drawable/refresh" />
 
             <TextView
                 android:layout_width="wrap_content"

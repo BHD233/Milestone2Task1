@@ -231,6 +231,32 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".Figure8_5"/>
+
+        <!--chapter 9-->
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure9_1"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure9_12"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure9_14"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure9_15"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure9_20"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure9_28"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure9_35"/>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".Figure9_26"/>
     </application>
 
 </manifest>
