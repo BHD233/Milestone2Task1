@@ -41,6 +41,7 @@ android {
                             'src/main/res/layouts/chapter7',
                             'src/main/res/layouts/chapter8',
                             'src/main/res/layouts/chapter9',
+                            'src/main/res/layouts/chapter10',
                             'src/main/res'
                     ]
         }

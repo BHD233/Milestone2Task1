@@ -83,3 +83,12 @@ Chapter 9:
 	9.28 pic 2	X
 	9.35 pic 1	X
 	9.26 pic 2	X
+Chapter 10:
+	10.1 pic 1	X
+	10.3 pic 2	X
+	10.6 pic 2	X
+	10.13		X
+	10.9 pic 2	X
+	10.27 pic 2	X
+	10.16 pic 1	X
+	10.8 pic 3	X
