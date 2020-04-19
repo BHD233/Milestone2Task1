@@ -92,3 +92,12 @@ Chapter 10:
 	10.27 pic 2	X
 	10.16 pic 1	X
 	10.8 pic 3	X
+Chapter 11:
+	11.2 pic 1	X
+	11.6 pic 1	X
+	11.13 pic 2	X
+	11.32 pic 1	X
+	11.36 pic 2	X
+	11.19 pic 1	X
+	11.35 pic 2	X
+	11.40 pic 1	X
